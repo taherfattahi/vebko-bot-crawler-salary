@@ -75,7 +75,7 @@ async fn get_sallary(api: Api, message: Message, my_data: &mut MyData) -> Result
 
         thread.join();
 
-        api.send(message.chat.text("your sallary = ".to_string() + &rx.recv().unwrap())).await?;
+        api.send(message.chat.text("your salary = ".to_string() + &rx.recv().unwrap())).await?;
     }
 
     Ok(())
@@ -94,7 +94,7 @@ async fn bot(api: Api, message: Message, status: &mut String, my_data: &mut MyDa
                 status.push_str("AddToken");
                 add_token(api, message).await?
             }
-            "/getSallary" => {
+            "/getSalary" => {
                 status.clear();
                 status.push_str("");
                 get_sallary(api, message, my_data).await?
