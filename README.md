@@ -1,6 +1,6 @@
 # vebko-bot-crawler-salary
 
-A simple Telegram bot that retrieves your personal salary information by crawling the [vebko.ir](https://vebko.org) website.
+A simple Telegram bot that retrieves your personal salary information by crawling the [vebko.org](https://vebko.org) website.
 
 ## Getting Started
 
