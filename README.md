@@ -1,11 +1,16 @@
 # vebko-bot-crawler-salary
-simple telegram bot for get personal salary with crawler vebko.ir website
 
-## help
-you should add your melli card and add your Cookie from website
+A simple Telegram bot that retrieves your personal salary information by crawling the [vebko.ir](https://vebko.org) website.
 
-<b>/addMelliCard</b> => for insert your melli card
+## Getting Started
 
-<b>/addToken</b> => for insert your token
+To use the bot, you need to:
 
-<b>/getSalary</b> => for get your personal salary
+1. **Add your Melli Card number**
+2. **Add your website Cookie (token)**
+
+## Commands
+
+- **/addMelliCard** — Add your Melli Card number
+- **/addToken** — Add your authentication token (Cookie) from the website
+- **/getSalary** — Retrieve your personal salary information
